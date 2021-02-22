@@ -1,0 +1,9 @@
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.deps.json
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.dll
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.AssemblyInfoInputs.cache
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.AssemblyInfo.cs
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\bin\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.pdb
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.csprojAssemblyReference.cache
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.dll
+C:\MyGithubRepo\MicroRabbit\MicroRabbit\MicroRabbit.Infra.IoC\obj\Debug\netcoreapp3.1\MicroRabbit.Infra.IoC.pdb
