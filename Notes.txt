@@ -1,0 +1,68 @@
+>Banking.Api>
+MPM>Install-Package Microsoft.EntityFrameworkCore.SqlServer
+ Microsoft.EntityFrameworkCore.Design
+
+To avoid error in below cmd Add nuget package reference "Mediatr Miocrosoft Dependency Injection" in startup prj Banking.Api
+>Banking.Data>
+NPM>Add-Migration "Initial Migration" -Context BankingDbContext
+NPM>Update-Database -Context BankingDbContext
+
+>banking.api>
+add nuget package ref to Madiat r, Mediat r MS DI, shashbucke swagger
+
+
+
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id]
+      ,[AccountType]
+      ,[AccountBalance]
+  FROM [BankingDB].[dbo].[Accounts]
+
+  USE [BankingDB]
+GO
+
+--INSERT INTO [dbo].[Accounts]
+--           ([AccountType]
+--           ,[AccountBalance])
+--     VALUES
+--           ('Checking' , '0.00'
+--           )
+--INSERT INTO [dbo].[Accounts]
+--           ([AccountType]
+--           ,[AccountBalance])
+--     VALUES
+--           ('Savings' , '0.00'
+--           )
+
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id]
+      ,[FromAccount]
+      ,[ToAccount]
+      ,[TransferAmount]
+  FROM [TransferDB].[dbo].[TransferLogs]
+
+
+  USE [TransferDB]
+GO
+
+--INSERT INTO [dbo].[TransferLogs]
+--           ([FromAccount]
+--           ,[ToAccount]
+--           ,[TransferAmount])
+--     VALUES
+--           (1
+--           ,2,
+--           '5.10')
+
+--	INSERT INTO [dbo].[TransferLogs]
+--           ([FromAccount]
+--           ,[ToAccount]
+--           ,[TransferAmount])
+--     VALUES
+--           (2
+--           ,1,
+--           '15.20')
+--GO
+
