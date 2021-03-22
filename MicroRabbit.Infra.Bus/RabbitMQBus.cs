@@ -31,7 +31,8 @@ namespace MicroRabbit.Infra.Bus
         //push message in queue. where eventType is Queue Name and underlying body is Message
         public void Publish<T>(T @event) where T : Event
         {
-            var factory = new ConnectionFactory { HostName = "localhost" };
+            var factory = new ConnectionFactory { HostName = "host.docker.internal" //"localhost"
+            };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
@@ -87,9 +88,11 @@ namespace MicroRabbit.Infra.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost",
+                //Uri = new Uri("amqp://guest:guest@localhost:5672")
+
+                HostName = "host.docker.internal", //"localhost",
                 DispatchConsumersAsync = true
-            };
+    };
 
             var connectoion = factory.CreateConnection();
             var channel = connectoion.CreateModel();

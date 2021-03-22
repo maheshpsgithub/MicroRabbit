@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  WebSite:
+    image: My-WebApp
+    container_name: WebApp
+    build:
+      context: .
+      dockerfile: ./MicroRabbit.Mvc/Dockerfile
+    ports:
+        - "0.0.0.0:49161:443"
+    networks:
+      - my-network
+    environment:
+      - API_URL=Api:49157
+  
+networks:
+  my-network:
+    external: true
